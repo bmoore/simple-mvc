@@ -1,0 +1,18 @@
+{
+  "development": {
+    "adapter": "postgres",
+    "host": "localhost",
+    "database": "dbname",
+    "username": "username",
+    "password": "password"
+  },
+  "production": {
+  },
+  "test": {
+    "adapter": "postgres",
+    "host": "localhost",
+    "database": "dbname-test",
+    "username": "username",
+    "password": "password"
+  }
+}
